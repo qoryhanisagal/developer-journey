@@ -1,5 +1,6 @@
 // --- Funny Story ---
 // Declare variables using let and const
+
 let character = "Koiree";
 let action = "debugged";
 let object = "a bug the size of Mount Everest";
@@ -28,7 +29,7 @@ console.log("Suddenly, " + character + " discovered " + object + " and decided t
 console.log("It turned out to be a great improvement, and their teammates awarded " + character + " the title of “README King”!");
 
 // ---- REFACTORED USING TEMPLATE LITERALS ----
-
+console.log("\nREFACTORED USING TEMPLATE LITERALS\n")
 // Initially, I used string concatenation to build sentences, 
 // but this approach can become difficult to read and maintain. 
 // Template literals (`${}` inside backticks `` ` ``) provide a cleaner, 
